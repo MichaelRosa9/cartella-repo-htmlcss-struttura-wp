@@ -12,7 +12,7 @@
 
 /* HEADER */
 nav {
-  height: 80px;
+  height: 100px;
   background-color:  #E16EE2;
 }
 
@@ -25,16 +25,48 @@ nav {
 
 /* MAIN CONTENT */
 main {
+
   margin-top: 20px;
   background-color: #A1C8E3;
 }
 
 .section-title {
-  height: 50px;
+  height: 60px;
 }
 
+/* CONTENT SECTION */
+.content {
+  background-color: #007CFF;
+  width: 100%;
+  padding: 25px 0;
+}
+
+.clearfix:after {
+  content:'';
+  display: table;
+  clear: both;
+}
+
+section aside,
+section .center {
+  float: left;
+  height: 300px;
+  background-color: #A1C8E3
+}
+
+section aside{
+  width: 23%
+}
+
+section .center{
+  width: 50%;
+  margin: 0 2%;
+}
+
+
+
 footer {
-  height: 50px;
+  height: 40px;
   margin: 20px 0 40px;
   background-color: #7D08FF;
 }
