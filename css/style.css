@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CORPO DELLA PAGINA */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* HEADER */
+nav {
+  height: 100px;
+  background-color:  #E16EE2;
+}
+
+/* IMMAGINE HEADER */
+.front-immage {
+  margin-top: 20px;
+  height: 400px;
+  background-color: #DDD06E;
+}
+
+/* MAIN CONTENT */
+main {
+  
+  background-color: #A1C8E3;
+}
