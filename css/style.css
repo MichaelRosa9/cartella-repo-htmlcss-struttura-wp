@@ -12,7 +12,7 @@
 
 /* HEADER */
 nav {
-  height: 100px;
+  height: 80px;
   background-color:  #E16EE2;
 }
 
@@ -25,6 +25,16 @@ nav {
 
 /* MAIN CONTENT */
 main {
-  
+  margin-top: 20px;
   background-color: #A1C8E3;
+}
+
+.section-title {
+  height: 50px;
+}
+
+footer {
+  height: 50px;
+  margin: 20px 0 40px;
+  background-color: #7D08FF;
 }
